@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class CalculateGradeUsing2DArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter number of students: ");
         int numberOfStudents = input.nextInt();
         int[][] marks = new int[numberOfStudents][3]; 
         char[] grades = new char[numberOfStudents];
