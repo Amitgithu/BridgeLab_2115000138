@@ -12,7 +12,7 @@ public class TableMultiplication{
         }
         
         for(int i = 1; i <= 10; i++){
-            System.out.printlm(number + " x " + i + " = " + arr[i - 1]);
+            System.out.println(number + " x " + i + " = " + arr[i - 1]);
         }
     }
 }
