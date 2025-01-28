@@ -70,3 +70,9 @@ This repository contains the progress and work done for the Java learning journe
 - Successfully completed all the Level-1 and Level-2 practice problems of the Assignment 4 named 'Arrays Practices' and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_25_Jan_2025) in Github.
 - Enrich my knowledge by learning about more Escape sequences (other than '\n') and used them as practice in assignment questions.
 
+
+### Date: 27-01-2025
+- Further Revision of all completed topics and give my 'Review Assessment'
+- Go through the Documentation of 'Java Methods'
+- Started solving the level-1 problems of Assignment 4 named 'Java Method Practices'.
+
