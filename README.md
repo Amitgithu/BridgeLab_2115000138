@@ -44,4 +44,15 @@ This repository contains the progress and work done for the Java learning journe
 
 - Covered about Best Programming Practices need to follow when writing a code/program.
 
-- Successfully completed all the Level-1 and Level-2 practice problems of the Assignment 2 named 'Programming Elements Practices' and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/Assignment_2_21_Jan) in Github.
+- Successfully completed all the Level-1 and Level-2 practice problems of the Assignment 2 named 'Programming Elements Practices' and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_21_Jan_2025) in Github.
+
+### Date: 23-01-2025
+- Covered About the Java Control Flows
+	- if-else
+	- if-else if-else
+	- for loop
+	- for-each loop
+	- while loop
+	- do-while loop
+
+- Successfully completed all the Level-1, Level-2 and Level-3 practice problems of the Assignment 3 named 'Java Control Flow' and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_23_Jan_2025) in Github.
