@@ -2,15 +2,8 @@ import java.util.Scanner;
 
 public class ReplaceWordInString {
     private static String replaceWord(String str, String wordToReplace, String newWord) {
-        String[] words = str.split(" ");
-        StringBuilder sb = new StringBuilder();
-        for (String word : words) {
-            if (word.equals(wordToReplace)) 
-                sb.append(newWord).append(" ");
-            else 
-                sb.append(word).append(" ");
-        }
-        return sb.toString().trim();
+        String modifiedString = str.replace(wordToReplace, newWord);
+        return modifiedString;
     }
     
     public static void main(String[] args) {
