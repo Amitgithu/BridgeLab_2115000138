@@ -11,13 +11,13 @@ public class RemoveSpecificCharacterFromString {
     }
 
     private static String removeCharacter(String str, char ch) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) != ch) {
-                sb.append(str.charAt(i));
+        String modifiedString = "";
+        for(int i = 0;i < str.length();i++){
+            if(str.charAt(i) != ch){
+                modifiedString += str.charAt(i);
             }
         }
-        return sb.toString();
+        return modifiedString;
     }
     
 }
