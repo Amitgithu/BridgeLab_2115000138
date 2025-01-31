@@ -4,6 +4,15 @@ public class Circle{
     public Circle(double radius){
         this.radius = radius;
     }
+	
+	public double getRadius(){
+		System.out.println("Radius of circle is:" +  radius);
+		return this.radius;
+	}
+	
+	public void setRadius(double newRadius){
+		this.radius = newRadius;
+	}
 
     public double area(){
         System.out.println("Area of circle with radius " + this.radius + " is : " + Math.PI * radius * radius);
