@@ -4,5 +4,6 @@ public class BookDetails{
         book.getAuthorName();
         book.getTitle();
         book.getPrice();
+        book.displayDetails();
     }
 }
