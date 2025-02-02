@@ -6,7 +6,7 @@ public class Book {
     public Book() {
         this.title = "";
         this.author = "";
-        this.price = 0.0;
+        this.price = 0;
     }
 
     public Book(String title, String author, int price) {
