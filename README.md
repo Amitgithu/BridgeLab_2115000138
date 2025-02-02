@@ -109,4 +109,11 @@ This repository contains the progress and work done for the Java learning journe
 - Successfully completed all practice problems of Assignment named 'Built-In Function Practice Problem' and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_29_Jan_2025) in Github Repo.
 
 
+### Date: 30-01-2025
+- Gone Through in some provided Documentation	
+	- Procedural Programming - Key Features & Limitations
+	- Object-Oriented Programming
+	- Advantages of OOP over Procedural Programming
+	- Differences Between OOP & Procedural Programming
+	- Java Classes & Objects
 
