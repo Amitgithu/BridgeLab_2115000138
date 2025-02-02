@@ -117,3 +117,17 @@ This repository contains the progress and work done for the Java learning journe
 	- Differences Between OOP & Procedural Programming
 	- Java Classes & Objects
 
+### Date: 31-01-2025
+- Successfully completed all practice problems of 'Java Class and Object' Assignment and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_30_Jan_2025) in Github Repo.
+
+- Covered Some more provided Documentation
+	- What is a Constructor?
+	- Coffee Shop Order Problem
+	- Types of Constructors
+	- Constructor Overloading
+	- Access Modifiers
+	- Instance vs. Class Variables and Methods with Example
+
+- Started working on practice problems of Java Constructors from 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment
+
+
