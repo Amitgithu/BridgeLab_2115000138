@@ -73,6 +73,12 @@ This repository contains the progress and work done for the Java learning journe
 
 ### Date: 27-01-2025
 - Further Revision of all completed topics and give my 'Review Assessment'
-- Go through the Documentation of 'Java Methods'
+- Gone through the Documentation of 'Java Methods'
+	- Java Methods writing paradigm and calling
+	- Working of Code having Method
+	- Applications of Methods
+	- Dynamic Methods
+	- User-defined, Recursive and Static methods
+	- Java Standard Libraries
 - Started solving the level-1 problems of Assignment 4 named 'Java Method Practices'.
 
