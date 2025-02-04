@@ -72,7 +72,6 @@ This repository contains the progress and work done for the Java learning journe
 
 
 ### Date: 27-01-2025
-- Further Revision of all completed topics and give my 'Review Assessment'
 - Gone through the Documentation of 'Java Methods'
 	- Java Methods writing paradigm and calling
 	- Working of Code having Method
