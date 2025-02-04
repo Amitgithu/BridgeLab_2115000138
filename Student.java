@@ -8,7 +8,7 @@ public class Student{
     public Student(){
         this.name = "Anonymous";
         this.rollNumber = -1;
-        this.grade = '';
+        this.grade = 'F';
     }
 
     public Student(String studentName, int rollNumber, char grade){
@@ -55,18 +55,19 @@ public class Student{
         System.out.println("Student Name is : " + this.name);
         System.out.println("Roll Number is : " + this.rollNumber);
         System.out.println("Grade of Student is : " + this.grade);
+        System.out.println("******************************************");
     }
 }
 
 class Main{
     public static void main(String []args){
         Student student1 = new Student("Amit Kumar", 101, 'A');
-        if(isInstanceOf(student1)){
+        if(Student.isInstanceOf(student1)){
             student1.displayStudentDetails();
         }
 
         Student student2 = new Student("Mohit Agarwal", 102, 'B');
-         if(isInstanceOf(student2)){
+         if(Student.isInstanceOf(student2)){
             student2.displayStudentDetails();
         }
 

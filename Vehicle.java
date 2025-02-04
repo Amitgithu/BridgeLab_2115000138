@@ -36,16 +36,12 @@ public class Vehicle{
         return registrationNumber;
     }
 
-    public void setRegistrationNumber(String registrationNumber){
-        this.registrationNumber = registrationNumber;
+    public static void setRegistrationFee(int fee){
+        registrationFee = fee;
     }
 
     public static int getRegistrationFee(){
         return registrationFee;
-    }
-
-    public static void setRegistrationFee(int registrationFee){
-        Vehicle.registrationFee = registrationFee;
     }
 
     public static boolean isInstanceOf(Vehicle obj){
@@ -57,6 +53,7 @@ public class Vehicle{
         System.out.println("Vehicle Type: " + vehicleType);
         System.out.println("Registration Number: " + registrationNumber);
         System.out.println("Registration Fee: " + registrationFee);
+        System.out.println("******************************************");
     } 
 }
 
@@ -65,13 +62,13 @@ class Main{
         Vehicle.setRegistrationFee(1000);
         Vehicle v1 = new Vehicle("Amit Kumar", "Car", "ABC123");
 
-        if(isInstanceOf(v1)){
+        if(Vehicle.isInstanceOf(v1)){
             v1.displayDetails();
         }
         
         Vehicle v2 = new Vehicle("Arun", "Bike", "XYZ456");
-        if(isInstanceOf(v2)){
-            v2.displayStudentDetails();
+        if(Vehicle.isInstanceOf(v2)){
+            v2.displayDetails();
         }
     }
 }

@@ -46,12 +46,12 @@ public class BankAccount{
 class Main{
     public static void main(String []args){
         BankAccount bank1 = new BankAccount("Amit Kumar", "9284-9297-5325-8673");
-        if(isInstanceOf(bank1)){
+        if(BankAccount.isInstanceOf(bank1)){
             bank1.displayDetails();
         }
 
         BankAccount bank2 = new BankAccount("Karan Seangar", "8736-5639-9273-8024");
-        if(isInstanceOf(bank2)){
+        if(BankAccount.isInstanceOf(bank2)){
             bank2.displayDetails();
         }
 

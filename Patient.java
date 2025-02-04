@@ -51,7 +51,7 @@ public class Patient{
         return hospitalName;
     }
 
-    public boolean isInstanceOf(Patient obj){
+    public static boolean isInstanceOf(Patient obj){
         return (obj instanceof Patient);
     }
 
@@ -69,12 +69,12 @@ public class Patient{
 class Main{
     public static void main(String []args){
         Patient patient1 = new Patient("Mohit Agarwal", 21, "Chickenpox", 101);
-        if(isInstanceOf(patient1)){
+        if(Patient.isInstanceOf(patient1)){
             patient1.displayDetails();
         }
 
-        Patient patient2 = new Patient("Mohit Agarwal", 21, "Chickenpox", 101);
-        if(isInstanceOf(patient2)){
+        Patient patient2 = new Patient("Amit Kumar", 23, "Cholera", 105);
+        if(Patient.isInstanceOf(patient2)){
             patient2.displayDetails();
         }
 

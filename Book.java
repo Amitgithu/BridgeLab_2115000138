@@ -37,7 +37,11 @@ public class Book{
     }
 
     public static String displayLibraryName(){
-        return this.libraryName;
+        return libraryName;
+    }
+
+    public static boolean isInstanceOf(Book obj){
+        return (obj instanceof Book);
     }
 
     public void displayDetails(){
@@ -45,19 +49,19 @@ public class Book{
         System.out.println("Author Name of Book is : " + this.author);
         System.out.println("Title of the Book is : " + this.title);
         System.out.println("ISBN Number of Book is : " + this.isbn);
-
+        System.out.println("******************************************");
     }
 }
 
 class Main{
     public static void main(String []args){
         Book book1 = new Book("Amit Kumar", "Java Programming", "9872-8463-2849");
-        if(isInstanceOf(book1)){
+        if(Book.isInstanceOf(book1)){
             book1.displayDetails();
         }
 
         Book book2 = new Book("Mohit Agarwal", "Lets learn with C", "8756-3647-2947");
-        if(isInstanceOf(book2)){
+        if(Book.isInstanceOf(book2)){
             book2.displayDetails();
         }
     }

@@ -2,7 +2,7 @@ public class Employee{
     private String name;
     private final int id;
     private String designation;
-    private int totalEmployees = 0;
+    private static int totalEmployees = 0;
     private static String companyName = "Goggle";
 
     public Employee(){
@@ -38,12 +38,8 @@ public class Employee{
         return this.id;
     }
 
-    public void setEmployeeId(int updatedId){
-        this.id = updatedId;
-    }
-
     public static int displayTotalEmployees(){
-        return this.totalEmployees;
+        return totalEmployees;
     }
 
     public static boolean isInstanceOf(Employee obj){
@@ -55,19 +51,19 @@ public class Employee{
         System.out.println("Employee ID is : " + this.id);
         System.out.println("Employee Name is : " + this.name);
         System.out.println("Designation of Employee is : " + this.designation);
-
+        System.out.println("******************************************");
     }
 }
 
 class Main{
     public static void main(String []args){
         Employee employee1 = new Employee("Amit Kumar", "Software Developer", 101);
-        if(isInstanceOf(employee1)){
+        if(Employee.isInstanceOf(employee1)){
             employee1.displayEmployeeDetails();
         }
 
         Employee employee2 = new Employee("Mohit Agarwal", "Quality Analyst", 105);
-        if(isInstanceOf(employee2)){
+        if(Employee.isInstanceOf(employee2)){
             employee2.displayEmployeeDetails();
         }
     }

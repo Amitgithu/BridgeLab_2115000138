@@ -51,7 +51,7 @@ public class Product{
         this.discount = updatedDiscount;
     }
 
-    public boolean isInstanceOf(Product obj){
+    public static boolean isInstanceOf(Product obj){
         return (obj instanceof Product);
     }
 
@@ -67,12 +67,12 @@ public class Product{
 class Main{
     public static void main(String []args){
         Product product1 = new Product("Mobile", 12999, 2, "8574-1038-9783");
-        if(isInstanceOf(product1)){
+        if(Product.isInstanceOf(product1)){
             product1.displayProductDetails(); 
         }
 
         Product product2 = new Product("Laptop", 40999, 1, "9348-2838-0183");
-        if(isInstanceOf(product2)){
+        if(Product.isInstanceOf(product2)){
             product2.displayProductDetails(); 
         }
 
