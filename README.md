@@ -130,4 +130,13 @@ This repository contains the progress and work done for the Java learning journe
 
 - Started working on practice problems of Java Constructors from 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment
 
+### Date: 01-02-2025
+
+### Date: 01-02-2025
+- Successfully completed all Lab practice problems of 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_01_Feb_2025) in Github Repo. 
+
+
+
+
+
 
