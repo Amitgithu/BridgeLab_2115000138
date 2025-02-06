@@ -136,6 +136,15 @@ This repository contains the progress and work done for the Java learning journe
 - Successfully completed all Lab practice problems of 'Java Constructors, Instance vs. Class Variables, Access Modifiers' Assignment and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_01_Feb_2025) in Github Repo. 
 
 
+### Date: 03-02-2025
+- Go through from the Documentation and covered below topics.
+	- 'this' keyword & its common uses
+	- 'static' keyword features, advantages and disadvantages
+	- Best Practice for Using 'static' keyword
+	- 'instanceOf' operator
+- Started and solved 3 problems of the 'Java this, static, final keywords & instanceof operator' Lab Practice Assignment.
+
+
 
 
 
