@@ -93,13 +93,13 @@ public class CompanyAndDepartment {
 
         Department itDept = company.getDepartment("IT");
         if (itDept != null) {
-            itDept.addEmployee("Alice", "Software Engineer");
-            itDept.addEmployee("Bob", "System Administrator");
+            itDept.addEmployee("Amit", "Software Engineer");
+            itDept.addEmployee("Ravi", "System Administrator");
         }
 
         Department hrDept = company.getDepartment("HR");
         if (hrDept != null) {
-            hrDept.addEmployee("Charlie", "HR Manager");
+            hrDept.addEmployee("Priya", "HR Manager");
         }
 
         company.displayCompany();

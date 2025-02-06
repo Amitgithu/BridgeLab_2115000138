@@ -84,8 +84,8 @@ public class ECommercePlatform {
         Product p3 = new Product("Headphones", 150.00);
 
         
-        Customer customer1 = new Customer("Alice");
-        Customer customer2 = new Customer("Bob");
+        Customer customer1 = new Customer("Amit");
+        Customer customer2 = new Customer("Karan");
 
         
         Order order1 = new Order(1, customer1);

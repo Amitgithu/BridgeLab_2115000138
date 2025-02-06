@@ -82,35 +82,28 @@ class Course {
 
 public class UniversityManagementSystem {
     public static void main(String[] args) {
-        
-        Student s1 = new Student("Alice", 101);
-        Student s2 = new Student("Bob", 102);
+        Student s1 = new Student("Rahul", 101);
+        Student s2 = new Student("Priya", 102);
 
-        
-        Professor p1 = new Professor("Dr. Smith", 201);
-        Professor p2 = new Professor("Dr. Johnson", 202);
+        Professor p1 = new Professor("Dr. Sharma", 201);
+        Professor p2 = new Professor("Dr. Verma", 202);
 
-        
         Course c1 = new Course("Data Structures");
         Course c2 = new Course("Machine Learning");
 
-        
         c1.assignProfessor(p1);
         c2.assignProfessor(p2);
 
-        
         s1.enrollCourse(c1);
         s1.enrollCourse(c2);
         s2.enrollCourse(c1);
 
-        
         System.out.println();
         c1.showCourseDetails();
         System.out.println();
         c2.showCourseDetails();
         System.out.println();
 
-        
         s1.showEnrolledCourses();
         s2.showEnrolledCourses();
     }

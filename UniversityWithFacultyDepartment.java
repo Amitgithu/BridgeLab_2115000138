@@ -84,33 +84,26 @@ class University {
 
 public class UniversityWithFacultyDepartment {
     public static void main(String[] args) {
-        
-        University uni = new University("Oxford University");
+        University uni = new University("Delhi University");
 
-        
         uni.addDepartment("Computer Science");
         uni.addDepartment("Mechanical Engineering");
 
-        
-        Faculty profAlice = new Faculty("Dr. Alice");
-        Faculty profBob = new Faculty("Dr. Bob");
+        Faculty profRavi = new Faculty("Dr. Ravi");
+        Faculty profPriya = new Faculty("Dr. Priya");
 
-        
-        uni.addFaculty(profAlice);
-        uni.addFaculty(profBob);
+        uni.addFaculty(profRavi);
+        uni.addFaculty(profPriya);
 
-        
         uni.showDepartments();
         System.out.println();
         uni.showFaculties();
 
-        
         System.out.println("\nDeleting University...");
         uni.deleteUniversity();
 
-        
         System.out.println();
-        profAlice = new Faculty("Dr. Alice");  
-        System.out.println("Independent Faculty: " + profAlice.getName());
+        profRavi = new Faculty("Dr. Ravi");
+        System.out.println("Independent Faculty: " + profRavi.getName());
     }
 }

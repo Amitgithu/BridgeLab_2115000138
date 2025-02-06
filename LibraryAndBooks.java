@@ -59,21 +59,17 @@ class Library {
 
 public class LibraryAndBooks{
     public static void main(String[] args) {
-        
-        Book book1 = new Book("The Alchemist", "Paulo Coelho");
-        Book book2 = new Book("1984", "George Orwell");
-        Book book3 = new Book("To Kill a Mockingbird", "Harper Lee");
+        Book book1 = new Book("The White Tiger", "Aravind Adiga");
+        Book book2 = new Book("Midnight's Children", "Salman Rushdie");
+        Book book3 = new Book("The God of Small Things", "Arundhati Roy");
 
-        
-        Library library1 = new Library("City Library");
-        Library library2 = new Library("Community Library");
+        Library library1 = new Library("National Library");
+        Library library2 = new Library("State Library");
 
-        
         library1.addBook(book1);
         library1.addBook(book2);
         library2.addBook(book3);
 
-        
         library1.displayLibrary();
         System.out.println();
         library2.displayLibrary();

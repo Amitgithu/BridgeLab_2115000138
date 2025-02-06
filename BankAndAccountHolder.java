@@ -89,10 +89,10 @@ class Account{
 
 public class BankAndAccountHolder {
     public static void main(String[] args) {
-        Bank bank1 = new Bank("State Bank");
+        Bank bank1 = new Bank("SBI");
 
-        Customer customer1 = new Customer("Alice");
-        Customer customer2 = new Customer("Bob");
+        Customer customer1 = new Customer("Amit");
+        Customer customer2 = new Customer("Priya");
 
         bank1.openAccount(customer1, 5000);
         bank1.openAccount(customer1, 3000);

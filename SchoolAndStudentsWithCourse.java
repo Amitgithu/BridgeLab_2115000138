@@ -108,37 +108,29 @@ class School {
 
 public class SchoolAndStudentsWithCourse {
     public static void main(String[] args) {
-        
-        School school = new School("Greenwood High");
+        School school = new School("Delhi Public School");
 
-        
-        Student alice = new Student("Alice");
-        Student bob = new Student("Bob");
+        Student rahul = new Student("Rahul");
+        Student priya = new Student("Priya");
 
-        
-        Course math = new Course("Mathematics");
-        Course science = new Course("Science");
+        Course hindi = new Course("Hindi");
+        Course physics = new Course("Physics");
 
-        
-        alice.enrollInCourse(math);
-        alice.enrollInCourse(science);
-        bob.enrollInCourse(math);
+        rahul.enrollInCourse(hindi);
+        rahul.enrollInCourse(physics);
+        priya.enrollInCourse(hindi);
 
-        
-        school.addStudent(alice);
-        school.addStudent(bob);
+        school.addStudent(rahul);
+        school.addStudent(priya);
 
-        
         school.showStudents();
 
-        
         System.out.println();
-        alice.showEnrolledCourses();
-        bob.showEnrolledCourses();
+        rahul.showEnrolledCourses();
+        priya.showEnrolledCourses();
 
-        
         System.out.println();
-        math.showEnrolledStudents();
-        science.showEnrolledStudents();
+        hindi.showEnrolledStudents();
+        physics.showEnrolledStudents();
     }
 }
