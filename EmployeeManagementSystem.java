@@ -1,3 +1,6 @@
+import java.util.List;
+import java.util.ArrayList;
+
 abstract class Employee{
     private int employeeId;
     private String name;
@@ -132,23 +135,14 @@ class PartTimeEmployee extends Employee implements Department{
 
 public class EmployeeManagementSystem{
     public static void main(String []args){
-        Employee employee1 = new FullTimeEmployee(101, "Amit", 50000, "Development", 70);
-        employee1.displayDetails();
-        ((FullTimeEmployee) employee1).getDepartmentDetails();
 
-        System.out.println();
+        List<Employee> list = new ArrayList<>();
+        list.add(new FullTimeEmployee(101, "Amit", 50000, "Development", 70));
+        list.add(new PartTimeEmployee(102, "Arun", 20000, "Testing", 60));
 
-        Employee employee2 = new PartTimeEmployee(102, "Arun", 20000, "Testing", 60);
-        employee2.displayDetails();
-        ((PartTimeEmployee) employee2).getDepartmentDetails();
-
-
-        // List<Employee> list = new ArrayList<>();
-        // list.add(new FullTimeEmployee(101, "Amit", 50000, "Development", 70));
-        // list.add(new PartTimeEmployee(102, "Arun", 20000, "Testing", 60));
-
-        // for(Employee employee : list){
-        //     employee.displayDetails();
-        // }
+        for(Employee employee : list){
+            employee.displayDetails();
+            System.out.println();
+        }
     }
 }
