@@ -141,7 +141,7 @@ public class SocialMediaApplication {
         socialMedia.addUser(2, "Arun", 23);
         socialMedia.addUser(3, "Karan Seangar", 27);
 
-        socialMedia.addFriendConnection(1, 2);7
+        socialMedia.addFriendConnection(1, 2);
         socialMedia.addFriendConnection(1, 3);
         socialMedia.displayFriends(1);
 
