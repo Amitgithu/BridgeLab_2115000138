@@ -16,12 +16,12 @@ public class FindRotationPoint{
 
     public static int findRotationPoint(int []nums){
         int left = 0;
-        int right = arr.length - 1;
+        int right = nums.length - 1;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            if (arr[mid] > arr[right]) {
+            if (nums[mid] > nums[right]) {
                 left = mid + 1;
             } 
             else {

@@ -48,8 +48,8 @@ public class FirstLastOccurence {
     public static void main(String[] args) {
         int[] nums = { 1, 2, 2, 2, 3, 4, 5, 5, 5, 6 };
         int target = 5;
-        int first = findFirst(nums, target);
-        int last = findLast(nums, target);
+        int first = findFirstOccurance(nums, target);
+        int last = findLastOccurance(nums, target);
 
         System.out.println("First occurence of " + target + " is at index " + first);
         System.out.println("Last occurence of " + target + " is at index " + last);
