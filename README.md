@@ -169,6 +169,25 @@ This repository contains the progress and work done for the Java learning journe
 - Completed all sample problems of 'Object Oriented Design' Assignment and push in this [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_05_Feb_2025) in Github Repo.
 
 
+### Date: 07-02-2025
+- Further Revision of already completed topics.
+- Go deep on some new topics:
+	- Memory Areas in Java
+	- CharSequence Interface and its implemented Classes
+		- String
+		- StringBuffer
+		- StringBuilder
+		- StringTokenizer
+	- String Pool
+	- Abstraction & Interface
+	- How to Achieve Multiple Inheritance
+- Completed all the practice problems of 'Inheritance' Assignment and pushed solutions in given [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_07_Feb_2025) in Github Repo.
+
+
+
+
+
+
 
 
 
