@@ -206,6 +206,16 @@ This repository contains the progress and work done for the Java learning journe
 - Completed 5 of the 9 practice problems of 'Linked List' Assignment and pushed in [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_12_Feb_2025) in Github Repo.
 
 
+### Date: 12-02-2025
+- Completed rest of the practice problems of 'Linked List' Assignment and pushed solutions in given [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_12_Feb_2025) in Github Repo.
+- Done a quick revision.
+- Deep-Dive in some topics
+	- Thread Safety
+	- 'tail' compulsion in Linked List
+	- Alternative approach of 1 question named "Social Media" using multiple Linked List
+- Learn Basic about Stacks
+
+
 
 
 
