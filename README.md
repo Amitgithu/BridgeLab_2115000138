@@ -141,6 +141,21 @@ This repository contains the progress and work done for the Java learning journe
 	- 'instanceOf' operator
 - Started and solved 3 problems of the 'Java this, static, final keywords & instanceof operator' Lab Practice Assignment.
 
+### Date: 04-02-2025
+- Successfully completed all practice problems of 'Java this, static, final key words and instanceof operator' Lab Practice Assignment and push [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_03_Feb_2025) in Github Repo.
+- Covered topics from Object Modeling Documentation
+	- Classes vs. Objects in Java
+	- Classes vs. Objects in a Project
+	- Association, Aggregation and Composition
+
+### Date: 05-02-2025
+- Deep-dive more about the Association, Aggregation and Composition
+- Go through documenation of Object Oriented Design Principles
+	- Class Diagram
+	- Object Diagram
+	- Sequence Diagram
+- Completed half of the problems of the 'Object Modeling' Assignment.
+
 
 
 
