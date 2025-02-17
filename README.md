@@ -156,6 +156,19 @@ This repository contains the progress and work done for the Java learning journe
 	- Sequence Diagram
 - Completed half of the problems of the 'Object Modeling' Assignment.
 
+### Date: 06-02-2025
+- Completed all practice problems of 'Object Modeling' Assignment and push in this [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_05_Feb_2025) in Github Repo.
+- Go through the documentation of Inheritance
+	- Inheritance and its Types
+	- Key Features of Inheritance
+	- Override Annotation
+	- Constructor Inheritance
+	- Method Overriding
+	- Polymorphism and Inheritance
+	- Access Modifiers and Inheritance
+- Completed all sample problems of 'Object Oriented Design' Assignment and push in this [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_05_Feb_2025) in Github Repo.
+
+
 
 
 
