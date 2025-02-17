@@ -195,6 +195,18 @@ This repository contains the progress and work done for the Java learning journe
 - Completed all the practice problems of Assignment named 'Submission of Encapsulation, Polymorphism, Interface and Abstract Class' and pushed solutions in given [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_10_Feb_2025) in Github Repo.
 
 
+### Date: 11-02-2025
+- Gone through the Documentation of Linked List
+	- Types of Data Structures and their key features
+	- What is Linked List?
+	- Types of Linked List
+	- Advantages and Disadvantages of Linked List
+	- Implementation of Linked List in Java
+
+- Completed 5 of the 9 practice problems of 'Linked List' Assignment and pushed in [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_12_Feb_2025) in Github Repo.
+
+
+
 
 
 
