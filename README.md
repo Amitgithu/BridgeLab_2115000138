@@ -189,6 +189,13 @@ This repository contains the progress and work done for the Java learning journe
 - Learn about all types of Polymorphism and its use cases.
 
 
+### Date: 10-02-2025
+- Learn about Abstract classes and Interfaces deeply
+- Typecasting object in Interface
+- Completed all the practice problems of Assignment named 'Submission of Encapsulation, Polymorphism, Interface and Abstract Class' and pushed solutions in given [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_10_Feb_2025) in Github Repo.
+
+
+
 
 
 
