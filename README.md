@@ -216,6 +216,40 @@ This repository contains the progress and work done for the Java learning journe
 - Learn Basic about Stacks
 
 
+### Date: 13-02-2025
+- Gone through the Documentation of Stacks, Queues, HashMap and Hashing Function
+	- Stacks
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Queues
+		- Defination & Principle
+		- Operations 
+		- Use cases
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- HashMap
+		- Defination
+		- Use Cases
+		- Internal Implementations
+		- Operations
+		- Key Characteristics
+		- Advantages
+		- Limitations
+	- Hashing Function
+		- What is Hashing?
+		- hashCode() Method and its rules of Overriding
+		- Hashing in Java Collections
+		- Steps for Hashing in Java
+		- Common Hashing Algorithms
+		- Applications
+	
+- Solved all the practice problems successfully of 'Stacks, Queues, HashMap and Hashing Function' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_13_Feb_2025) in Github Repo.
+
 
 
 
