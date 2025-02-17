@@ -184,7 +184,9 @@ This repository contains the progress and work done for the Java learning journe
 - Completed all the practice problems of 'Inheritance' Assignment and pushed solutions in given [branch](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_07_Feb_2025) in Github Repo.
 
 
-
+### Date: 09-02-2025
+- Learn more about Encapsulation, Code Reusablity, Data hiding and Maintenance.
+- Learn about all types of Polymorphism and its use cases.
 
 
 
