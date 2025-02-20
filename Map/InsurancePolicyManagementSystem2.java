@@ -100,22 +100,22 @@ public class InsurancePolicyManagementSystem2 {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
-        // Add sample policies
+        
         addPolicy(new InsurancePolicy("P001", "Alice", sdf.parse("2025-05-10"), "Health", 200.50));
         addPolicy(new InsurancePolicy("P002", "Bob", sdf.parse("2025-02-25"), "Auto", 150.75));
         addPolicy(new InsurancePolicy("P003", "Alice", sdf.parse("2025-03-15"), "Home", 300.25));
         addPolicy(new InsurancePolicy("P004", "Charlie", sdf.parse("2025-01-10"), "Health", 250.00));
 
-        // Retrieve policy by number
+        
         System.out.println("Policy P001: " + getPolicyByNumber("P001"));
 
-        // List policies expiring in the next 30 days
+        
         System.out.println("Policies Expiring Soon: " + getPoliciesExpiringSoon());
 
-        // List policies for a specific policyholder
+        
         System.out.println("Policies for Alice: " + getPoliciesByPolicyholder("Alice"));
 
-        // Remove expired policies
+        
         removeExpiredPolicies();
         System.out.println("Remaining Policies after removing expired ones: ");
         policyMap.values().forEach(System.out::println);
