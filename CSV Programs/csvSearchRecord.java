@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class csvSearchRecord {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/output.csv";
+        String path = "output.csv";
 
         try(CSVReader reader = new CSVReader(new FileReader(path))){
             String[] file;

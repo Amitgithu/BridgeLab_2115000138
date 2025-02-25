@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class csvCountRows {
     public static void main(String[] args) {
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/data.csv";
+        String path = "data.csv";
         int rows = 0;
         try(CSVReader reader = new CSVReader(new FileReader(path))){
             String[] file ;
@@ -14,7 +14,7 @@ public class csvCountRows {
             while ((file = reader.readNext()) != null){
                 rows++;
             }
-            System.out.println("Total Number of Rows:- " + rows);
+            System.out.println("Total Number of Rows: " + rows);
         }
         catch (Exception e){
             System.out.println(e.getMessage());

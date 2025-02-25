@@ -12,8 +12,8 @@ public class CSVReportDatabase {
 
     public static void main(String[] args) {
         String jdbcURL = "jdbc:mysql://localhost:3306/Divyanshu_DB";
-        String username = "your_username";
-        String password = "your_password";
+        String username = "Amit Kumar";
+        String password = "Amit9058";
         String csvFilePath = "employee_report.csv";
         String query = "SELECT employee_id, name, department, salary FROM employees";
 

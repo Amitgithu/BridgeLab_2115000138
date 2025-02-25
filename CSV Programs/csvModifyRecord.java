@@ -8,8 +8,8 @@ import java.io.FileWriter;
 
 public class csvModifyRecord {
     public static void main(String[] args) {
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/output.csv";
-        String newpath = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/modifyEmployee.csv";
+        String path = "output.csv";
+        String newpath = "modifyEmployee.csv";
         try(CSVReader reader = new CSVReader(new FileReader(path));
         CSVWriter writer = new CSVWriter(new FileWriter(newpath)))
         {

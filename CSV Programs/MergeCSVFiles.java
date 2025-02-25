@@ -15,12 +15,12 @@ public class MergeCSVFiles {
         
         Map<String, String[]> studentDetails = new HashMap<>();
         
-        // Read students1.csv and store details in the map
+        
         try (CSVReader reader1 = new CSVReader(new FileReader(file1))) {
             String[] row;
             boolean header = true;
             while ((row = reader1.readNext()) != null) {
-                // Skip header row
+                
                 if (header) {
                     header = false;
                     continue;
@@ -60,7 +60,7 @@ public class MergeCSVFiles {
                 String grade = row[2].trim();
                 
                 if (studentDetails.containsKey(id)) {
-                    String[] details = studentDetails.get(id); // [Name, Age]
+                    String[] details = studentDetails.get(id); 
                     String[] mergedRow = { id, details[0], details[1], marks, grade };
                     writer.writeNext(mergedRow);
                 } else {

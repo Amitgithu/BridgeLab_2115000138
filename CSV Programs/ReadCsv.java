@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class ReadCsv {
     public static void main(String[] args) {
 
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/data.csv";
+        String path = "data.csv";
         try(CSVReader reader = new CSVReader(new FileReader(path))){
             String[] file;
             while ((file = reader.readNext()) != null){

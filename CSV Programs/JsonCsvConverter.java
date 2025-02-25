@@ -13,7 +13,7 @@ import java.util.*;
 
 public class JsonCsvConverter {
 
-    // Convert JSON file to CSV file
+    
     public static void convertJsonToCsv(String jsonFilePath, String csvFilePath) {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
@@ -52,7 +52,7 @@ public class JsonCsvConverter {
         ObjectMapper objectMapper = new ObjectMapper();
         List<Map<String, String>> students = new ArrayList<>();
         try (CSVReader reader = new CSVReader(new FileReader(csvFilePath))) {
-            String[] headers = reader.readNext(); // Read header row
+            String[] headers = reader.readNext(); 
             if (headers == null) {
                 System.out.println("CSV file is empty. No data to convert.");
                 return;

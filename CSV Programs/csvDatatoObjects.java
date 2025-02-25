@@ -29,7 +29,7 @@ class Student{
 }
 public class csvDatatoObjects {
     public static void main(String[] args) {
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/data.csv";
+        String path = "data.csv";
         List<Student> studentList = new ArrayList<>();
         try(  CSVReader reader = new CSVReader(new FileReader(path))  ){
             String[] record;

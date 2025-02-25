@@ -33,13 +33,13 @@ public class csvValidateRecords {
                 boolean isValid = true;
                 StringBuilder errorMessage = new StringBuilder(" Line " + lineNumber + " errors: ");
 
-                //  email
+                
                 if (!emailPattern.matcher(email).matches()) {
                     isValid = false;
                     errorMessage.append("Invalid email format. ");
                 }
 
-                //  phone number
+                
                 if (!phonePattern.matcher(phone).matches()) {
                     isValid = false;
                     errorMessage.append("Phone number must be exactly 10 digits.");

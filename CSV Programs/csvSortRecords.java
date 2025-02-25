@@ -8,7 +8,7 @@ import java.util.List;
 
 public class csvSortRecords {
     public static void main(String[] args) {
-        String path = "/home/divyanshu/Desktop/CG/csvpractise/csvReader/src/main/java/org/example/output.csv";
+        String path = "output.csv";
         List<String[]> records = new ArrayList<>();
         try(CSVReader reader =new CSVReader(new FileReader(path))){
             reader.readNext();
