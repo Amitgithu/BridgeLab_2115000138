@@ -88,8 +88,8 @@ public class EncryptDecryptCSV {
 
     public static void main(String[] args) {
         String csvFile = "employee_data_encrypted.csv";
-                writeCSV(csvFile);
-                System.out.println("\nReading and decrypting CSV data:");
+        writeCSV(csvFile);
+        System.out.println("\nReading and decrypting CSV data:");
         readCSV(csvFile);
     }
 }
