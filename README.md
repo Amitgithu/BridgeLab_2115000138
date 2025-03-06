@@ -257,9 +257,85 @@ This repository contains the progress and work done for the Java learning journe
 	- Comparison Based: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort, Heap Sort
 	- Non-Comparison Based: Counting Sort, Radix Sort, Bucket Sort
 
-- Solved all the practice problems successfully of 'Sorting Algorithm' Assignment and pushed [here]() in Github Repo.
+- Solved all the practice problems successfully of 'Sorting Algorithm' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_14_Feb_2025) in Github Repo.
 
 - Gone Thorugh the Documentaion of Linear Search and Binary Search
+
+
+### Date: 15-02-2025
+- Gone Thorugh the Documentaion of:
+	- StringBuffer and StringBuilder
+	- Java File Handling: BufferReader, FileReader and InputStreamReader
+
+- Solved all the practice problems successfully of 'StringBuilder', 'StringBuffer', 'Linear Search', 'Binary Search', 'BufferReader', 'FileReader' and 'InputStreamReader' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_15_Feb_2025) in Github Repo.
+
+### Date: 16-02-2025
+- Gone Through the Documention of Algorithm's Runtime Analysis and Big-O Notation
+- Read about Best Programming Practices to reduce Space and Time Complexity.
+
+### Date: 17-02-2025
+Solved all the practice problems successfully of 'Algorithm's Runtime Analysis' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_17_Feb_2025) in Github Repo.
+
+### Date: 18-02-2025
+- Gone through the documentation of Generics
+	- Generics & its Usage
+	- Generics Types & Bounded Type Parameters
+	- Wildcards and its types in Generics
+
+- - Solved all the practice problems successfully of 'Java Generics' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_18_Feb_2025) in Github Repo.
+
+### Date: 19-02-2025
+- Started the Java Collections
+	- Collection Framework and its heirarchy
+	- List Interface and its Implementations
+	- Set Interface and its Implementations
+
+- Solved some List and Set interface practice problems successfully of 'Java Collections' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_19_Feb_2025) in Github Repo.
+
+### Date: 20-02-2025
+- Learned further about Java Collections
+	- Queue Interface and its Implementations
+	- Deque Interface and its Implementations
+	- Map Interface and its Implementations
+
+- Learned a little about 'Exceptions' in Java
+	- Errors vs. Exceptions
+	- What is Exception?
+	- Cheched vs. Unchecked Exceptions
+
+- Solved all left practice problems successfully of 'Java Collections' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_19_Feb_2025) in Github Repo.
+
+- Given my review of 4th week of Java Training Journey.
+
+### Date: 21-02-2025
+- Gone through 'Java Streams' documentation
+	- Java I/O Streams
+	- Types of Streams
+
+- Solved all the practice problems successfully of 'Java Streams' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_20_Feb_2025) in Github Repo.
+
+- Learned further about 'Java Exception Handling'
+	- Exception Handling Mechanism
+	- try-catch block and finally block
+	- throw and throws keyword
+	- Creating Custom Exceptions
+	- Extending Exception Class
+
+- Solved all the practice problems successfully of 'Java Exception Handling' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_21_Feb_2025) in Github Repo.
+
+### Date: 22-02-2025
+- Gone through the 'Java Regex' documentation:
+	- What is Regular Expression?
+	- Java Regex API
+	- Regex MetaCharacters and Quantifiers
+	- Common Regex Patterns
+	- Java Regex Methods
+
+- Gone through the 'Java JUnit' documentation:
+	- What is JUnit?
+	- JUnit Annotations
+
+- Solved all the practice problems successfully of 'Java Regex and JUnit' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_22_Feb_2025) in Github Repo.
 
 
 
