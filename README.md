@@ -251,6 +251,17 @@ This repository contains the progress and work done for the Java learning journe
 - Solved all the practice problems successfully of 'Stacks, Queues, HashMap and Hashing Function' Assignment and pushed [here](https://github.com/Amitgithu/BridgeLab_2115000138/tree/feature_13_Feb_2025) in Github Repo.
 
 
+### Date: 14-02-2025
+- Gone Through the Sorting Algorithms Documentation
+	- Comparison & Non-comparison Based Sorting
+	- Comparison Based: Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort, Heap Sort
+	- Non-Comparison Based: Counting Sort, Radix Sort, Bucket Sort
+
+- Solved all the practice problems successfully of 'Sorting Algorithm' Assignment and pushed [here]() in Github Repo.
+
+- Gone Thorugh the Documentaion of Linear Search and Binary Search
+
+
 
 
 
